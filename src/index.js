@@ -1,7 +1,7 @@
 const fs = require('fs');
+const helloify = require('./util');
 
-const helloify = () =>
-  console.log('Hello, world!');
+console.log('Welcome to the best source file.');
+helloify();
 
-console.log('Welcome to a source file.');
 process.exit(0);
